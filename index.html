@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edufold</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- _____________Header___________ -->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="./assets/img/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-xmark" onclick="hideMenu()"></i>
+          <ul class="nav-links_list">
+            <li class="nav-links_item"><a href="">HOME</a></li>
+            <li class="nav-links_item"><a href="">ABOUT</a></li>
+            <li class="nav-links_item"><a href="">COURSE</a></li>
+            <li class="nav-links_item"><a href="">BLOG</a></li>
+            <li class="nav-links_item"><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+          excepturi eos natus aperiam dicta iusto <br />consectetur consequatur
+          aliquam quam labore.
+        </p>
+        <a href="" class="hero-btn">Visit Us to know More</a>
+      </div>
+    </section>
+    <!-- _____________End Header___________ -->
+
+    <!-- _____________Course___________ -->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque odio
+            est accusamus veniam explicabo aspernatur consequatur doloribus,
+            optio exercitationem at culpa quam facilis minus atque nostrum nihil
+            voluptatibus laborum deleniti.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque odio
+            est accusamus veniam explicabo aspernatur consequatur doloribus,
+            optio exercitationem at culpa quam facilis minus atque nostrum nihil
+            voluptatibus laborum deleniti.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque odio
+            est accusamus veniam explicabo aspernatur consequatur doloribus,
+            optio exercitationem at culpa quam facilis minus atque nostrum nihil
+            voluptatibus laborum deleniti.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- _____________End Course___________ -->
+
+    <!-- _____________Campus___________ -->
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="./assets/img/london.png" alt="london" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="./assets/img/newyork.png" alt="newyork" />
+          <div class="layer">
+            <h3>NEWYORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="./assets/img/washington.png" alt="washington" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _____________End Campus___________ -->
+
+    <!-- _____________Facilities___________ -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="./assets/img/library.png" alt="">
+          <h3>World Class Library</h3>
+        </div>
+      </div>
+    </section>
+    <!-- _____________End Facilities___________ -->
+
+    <!-- ______Javascript for Toggle Menu ________ -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
